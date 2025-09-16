@@ -22,7 +22,7 @@ PLAYLIST_FILE = 'samsung_tvplus.m3u'
 EPG_FILE = 'samsung_tvplus.xml'
 
 # Default settings - can be overridden by environment variables
-DEFAULT_REGIONS = os.getenv('REGIONS', 'all')  # comma-separated regions or 'all'
+DEFAULT_REGIONS = os.getenv('REGIONS', 'ca,us')  # comma-separated regions or 'all'
 DEFAULT_GROUPS = os.getenv('GROUPS', '')  # comma-separated groups to include (empty = all)
 INCLUDE_DRM = os.getenv('INCLUDE_DRM', 'true').lower() == 'true'
 START_CHNO = int(os.getenv('START_CHNO', '1'))  # Starting channel number
